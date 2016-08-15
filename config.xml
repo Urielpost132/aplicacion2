@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <widget xmlns = "http://www.w3.or/ns/widgets"
+       xmlns:gap = "http://phonegap.com/ns/1.0"
+	    id    = "com.phonegap.example2"
+	    versionCode = "10"
+		 version = "1.0.0">
+		 
+  <name> Aplicacion dos </name>
+  
+  <description>
+    Aplicacion que muestra los modulos de las especialidades en el CBTis 16
+  </description>
+  
+  
+  <preference name = "phonegap-version" value="3.1.0"/>
+  
+  
+  
+  <author href = "https://build.phonegap.com" email="support@phonegap.com">
+  Uriel Campeche Gonzalez
+  </author>
+  
+  
+  <gap:plugin name = "org.apache.cordova.divice" version = "0.2.12"/>
+      <gap:plugin name = "org.apache.cordova.vibration" version = "0.3.0"/>
+  <gap:plugin name = "org.apache.cordova.dialogs" version = "0.2.6"/>
+  
+  
+  
+ <icon src="res/android/mdpi.png"/>
+ 
+ </widget>
+ 	  
